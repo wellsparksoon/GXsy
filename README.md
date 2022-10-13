@@ -1,12 +1,12 @@
-# Goorm 搭建 xray vmess / vless 节点
+# Goorm 搭建 ay vm / vlss 节点
 
-使用goorm的免费ide，配合其alwayson功能和端口转发，实现xray代理服务
+使用goorm的免费ide，配合其alwayson功能和端口转发，实现ay代服务
 
 # 注：请勿在常用账号部署本项目
 
 ## 食用方法
 
-博客图文教程：https://owo.misaka.rest/goormide-xray/
+博客图文教程：https://owo.misaka.rest/goormide-ay/(已删库）
 
 1. 注册并登录Goorm账号
 2. 创建一个Container
@@ -26,7 +26,7 @@ wget -N https://raw.githubusercontent.com/Misaka-blog/GX/master/misaka.sh && bas
 
 ![](https://gcore.jsdelivr.net/gh/Misaka-blog/tuchuang@master/20220531052447.png)
 
-6. vmess / vless 配置如下
+6. vmss / vlss 配置如下
 
 ```
 地址：IP
