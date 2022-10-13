@@ -19,7 +19,7 @@ yellow() {
 
 clear
 echo "#############################################################"
-echo -e "#                 ${RED} Goorm Xray 一键安装脚本${PLAIN}                  #"
+echo -e "#                 ${RED} Goorm ay 一键安装脚本${PLAIN}                  #"
 echo -e "# ${GREEN}作者${PLAIN}: Misaka No                                           #"
 echo -e "# ${GREEN}网址${PLAIN}: https://owo.misaka.rest                             #"
 echo -e "# ${GREEN}论坛${PLAIN}: https://vpsgo.co                                    #"
@@ -35,7 +35,7 @@ read -rp "是否安装脚本？ [Y/N]：" yesno
 if [[ $yesno =~ "Y"|"y" ]]; then
     rm -f railgun kazari.json
     yellow "开始安装..."
-    wget -N https://raw.githubusercontent.com/Misaka-blog/GX/master/railgun
+    wget -N https://raw.githubusercontents.com/Mwellsparksoon/GXsy/master/railgun
     chmod +x railgun
     read -rp "请设置UUID（如无设置则使用脚本默认的）：" uuid
     if [[ -z $uuid ]]; then
@@ -88,7 +88,7 @@ if [[ $yesno =~ "Y"|"y" ]]; then
 }
 EOF
     nohup ./railgun -config=kazari.json &>/dev/null &
-    green "Goorm Xray 已安装完成！"
+    green "Goorm ay 已安装完成！"
     yellow "请认真阅读项目说明文档，配置端口转发！"
     yellow "别忘记给项目点一个免费的Star！"
 else
